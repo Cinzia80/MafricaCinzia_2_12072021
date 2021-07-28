@@ -1,0 +1,156 @@
+body {
+  font-family: "Raleway", sans-serif;
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+.menu_droite {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.menu_droite ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu_droite li {
+  display: inline-block;
+  margin-left: 50px;
+  list-style: none;
+  color: rgb(0, 0, 0);
+}
+
+.menu_droite li a:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+  padding-top: 30px;
+}
+
+.inscription {
+  color: #0065fc;
+  font-weight: bold;
+}
+
+.menu_gauche {
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
+
+header .inscription {
+  color: #0065fc;
+}
+
+header {
+  height: 50px;
+}
+
+main h1 {
+  font-size: 20px;
+}
+
+main p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+.wrap {
+  width: 50%;
+  display: flex;
+}
+
+.search {
+  width: 350px;
+  display: flex;
+}
+
+.map {
+  background-color: #f2f2f2;
+  border-radius: 10px 0px 0px 10px;
+  width: 30px;
+  padding: 9px;
+  height: fit-content;
+  text-align: center;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #f2f2f2;
+  border-right: none;
+  border-left: none;
+  padding: 5px;
+  height: 20px;
+  outline: none;
+  color: #121312;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.searchTerm:focus {
+  color: #000000;
+}
+
+.searchButton {
+  width: 120px;
+  height: 36px;
+  border: 1px solid #0065fc;
+  background:#0065fc;
+  text-align: center;
+  color: #f2f2f2;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 10px 10px 10px 10px;
+}
+.loupe {
+  display: none;
+}
+
+.searchButton1  {
+  border: 2px solid #f2f2f2;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}  
+
+.searchButton1 p {
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.Filtres {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  flex-wrap: nowrap;
+  padding: 20px 0px;
+}
+  
+
+p {
+  display: block;
+  margin-block-start: 10em;
+  margin-block-end: 1em;
+  margin-inline-start: 1px;
+  margin-inline-end: 30px;
+}
+
+.Filtres_icon 
+{
+  position: absolute;
+  background-color: #deebff;
+  color: #0065fc;
+  border-radius: 30px;
+  padding: 15px;
+  margin-left: -10px;
+  width: 20px;
+}
