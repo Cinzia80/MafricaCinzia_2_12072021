@@ -137,6 +137,7 @@ main p {
   
 
 p {
+  font-weight: bold;
   display: block;
   margin-block-start: 10em;
   margin-block-end: 1em;
@@ -177,4 +178,11 @@ p {
 .info i {
   border: 2px 2px 2px solid #000000;
   color: #0065fc;
+}
+.info i {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
 }
