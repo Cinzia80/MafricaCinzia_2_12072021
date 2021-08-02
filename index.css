@@ -205,3 +205,16 @@ footer {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.menu_footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu_footer ul li a {
+color: #121312ad;
+text-decoration: none;
+font-size: 12px;
+padding: 10px 0;
+}
