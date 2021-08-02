@@ -161,6 +161,8 @@ p {
 
 .info ul li {
   display: inline-block;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 .info ul li i {
@@ -169,6 +171,7 @@ p {
   text-align: center;
   border: 1px solid #f2f2f2;
   border-radius: 30px;
+  margin-top: 60px;
 }
 
 .info ul li p {
@@ -181,6 +184,7 @@ p {
 }
 .info i {
   position: absolute;
+  left: 0px;
   right: 0px;
   width: 300px;
   border: 3px solid #73AD21;
