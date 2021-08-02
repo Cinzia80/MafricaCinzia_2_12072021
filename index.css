@@ -160,6 +160,8 @@ p {
 }
 
 .info ul li {
+ font-family: Raleway;
+ font-size: 14;
   display: inline-block;
   margin-left: 20px;
   margin-top: 5px;
@@ -189,4 +191,17 @@ p {
   width: 300px;
   border: 3px solid #73AD21;
   padding: 10px;
+}
+
+footer {
+ 
+      background-color: #F2F2F2;
+    
+    height: 150px
+}
+
+.menu_footer {
+ display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
