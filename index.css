@@ -243,19 +243,21 @@ section {
 
 .plus_populaires {
   margin-left: 800px;
-    margin-top: -500px;
+    margin-top: -550px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     align-content: center;
     justify-content: flex-end;
     align-items: center;
+    background-color: #F2F2F2;
 }
  
 
 .plus_populaires ul {
   list-style-type: none;
 }
+
 
 #section aside {
   display: flex;
@@ -267,137 +269,26 @@ section {
 }
 
 
-.cannebiere {
-  display: inline-block;
-  background-color: white;
-  border: 5px solid white;
-  border-radius: 20px 20px 20px 20px;
+.block_hotel {
+background-color: rgb(255,255,255);
+    border-radius: 20px;
+    height: 200px;
+    width: fit-content;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
 }
 
-.cannebiere img {
-  text-align: center;
-  border: 5px solid white;
-  border-radius: 20px 20px 0px 0px;
-  margin-left: 30px;
-}
-
-.cannebiere span {
-  font-size: 12px;
-}
-
-.cannebiere strong {
-  font-style: bold;
-}
-
-.port {
-   display: inline-block;
-  background-color: white;
-  border: 5px solid white;
-  border-radius: 20px 20px 20px 20px;
-}
-
-.port img {
-   text-align: center;
-  border: 5px solid white;
-  border-radius: 20px 20px 0px 0px;
-  margin-left: 30px;
-}
-
-.port span {
-  font-size: 14px;
-  font-family:"Raleway Regular 400 italic";
-  font-style: "Raleway Regular 400 italic";
-}
-
-.port strong {
-  font-style: bold;
-  font-family: "Raleway ExtraLight";
+.hebergements_populaires {
+  display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    width: fit-content;
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 20px;
 }
 
 
-.mouettes {
-   display: inline-block;
-  background-color: white;
-  border: 5px solid white;
-  border-radius: 20px 20px 20px 20px;
-}
-
-.mouettes img {
-  text-align: center;
-  border: 5px solid white;
-  border-radius: 20px 20px 0px 0px;
-  margin-left: 30px;
-}
-
-.mouettes span {
-  font-size: 12px;
-  font-family: "Raleway ExtraLight";
-}
-
-.mouettes strong {
-  font-style: bold;
-  font-size: 13px;
-  style: thin100;
-}
-
-.delamer { 
-  display: inline-block;
-  background-color: white;
-  border: 5px solid white;
-  border-radius: 20px 20px 20px 20px;
-}
-.delamer img {
-   text-align: center;
-  border: 5px solid white;
-  border-radius: 20px 20px 0px 0px;
-  margin-left: 30px;
-}
-.delamer span {
-  font-size: 12px
-}
-.delamer strong {
-  font-style: bold;
-}
-
-.panier {
-  display: inline-block;
-  background-color: white;
-  border: 5px solid white;
-  border-radius: 20px 20px 20px 20px;
-}
-
-.panier img {
-   text-align: center;
-  border: 5px solid white;
-  border-radius: 20px 20px 0px 0px;
-  margin-left: 30px;
-}
-.panier span {
-  font-size: 12px
-}
-.panier strong {
-  font-style: bold;
-}
-
-.amina {
-display: inline-block;
-  background-color: white;
-  border: 5px solid white;
-  border-radius: 20px 20px 20px 20px;  
-}
-.amina img {
-   text-align: center;
-  border: 5px solid white;
-  border-radius: 20px 20px 0px 0px;
-  margin-left: 30px;
-}
-
-.amina span {
-  font-size: 12px;
-}
-.amina strong {
-  font-style: bold;
-}
 
 i.fas.fa-star {
   color: #0065fc;
@@ -419,3 +310,4 @@ h3 {
 .activites_marseille {
   margin-top: 150px;
 }
+
