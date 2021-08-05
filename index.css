@@ -5,14 +5,23 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
+.logo {
+  height: auto;
+}
+
+a {
+  text-decoration-line: none;
+  color: #0065FC;
+}
+
 .menu_droite {
   display: flex;
   flex-direction: row;
   float: right;
+  text-decoration: none;
 }
 
 .menu_droite ul li a {
-  text-decoration: none;
   color: black;
 }
 
@@ -21,6 +30,7 @@ body {
   margin-left: 50px;
   list-style: none;
   color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .menu_droite li a:hover {
@@ -52,11 +62,24 @@ main h1 {
   font-size: 20px;
 }
 
+.reve {
+  margin-top: 25px;
+    display: block;
+}
+
 main p {
   margin-top: 10px;
   font-size: 15px;
   color: rgb(0, 0, 0);
 }
+
+h5 {
+  margin-top: -10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #524e4e;
+}
+
 
 .wrap {
   width: 50%;
@@ -70,10 +93,10 @@ main p {
 
 .map {
   background-color: #f2f2f2;
-  border-radius: 10px 0px 0px 10px;
-  width: 30px;
-  padding: 9px;
-  height: fit-content;
+  border-radius: 15px 0px 0px 15px;
+  width: 35px;
+  padding: 15px;
+  height: auto;
   text-align: center;
 }
 
@@ -83,28 +106,33 @@ main p {
   border-right: none;
   border-left: none;
   padding: 5px;
-  height: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 32px;
   outline: none;
   color: #121312;
   font-size: 15px;
   font-weight: bold;
+  text-align: left;
+  font-family: "Raleway Medium";
 }
 
-.searchTerm:focus {
-  color: #000000;
-}
+
 
 .searchButton {
-  width: 120px;
-  height: 36px;
+  width: 200px;
+  height: 47px;
   border: 1px solid #0065fc;
   background:#0065fc;
   text-align: center;
   color: #f2f2f2;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 15px 15px 0;
   cursor: pointer;
-  font-size: 17px;
-  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+  font-weight: 600;
+
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .loupe {
   display: none;
@@ -175,7 +203,7 @@ p {
   text-align: center;
   border: 1px solid #f2f2f2;
   border-radius: 30px;
-  margin-top: 70px;
+  margin-top: auto;
 }
 
 .info ul li p {
@@ -238,12 +266,18 @@ section {
   background-color: #F2F2F2;
   padding: 10px 5px;
   border-radius: 10px 10px 10px 10px;
-  margin-right: 500px;
+  margin-right: 380px;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .plus_populaires {
-  margin-left: 800px;
-    margin-top: -550px;
+  margin-left: 900px;
+    margin-top: -650px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -259,11 +293,6 @@ section {
 }
 
 
-#section aside {
-  display: flex;
-  align-content: margin-right;
-}
-
 .images_activites ul {
   list-style-type: none;
 }
@@ -272,42 +301,57 @@ section {
 .block_hotel {
 background-color: rgb(255,255,255);
     border-radius: 20px;
-    height: 200px;
+    height: auto;
     width: fit-content;
     padding: 5px 5px 5px 5px;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
 }
 
+.block_hotel ul li {
+  list-style: none;
+  font-size: 12px;
+}
+
+.block_hotel img {
+  height: 100px;
+  width: 200px;
+}
+
+.block_hotel ul {
+  text-align: left;
+  margin-left: -30px;
+}
+
 .hebergements_populaires {
   display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 30px;
+    grid-gap: 20px;
     width: fit-content;
     background-color: #f2f2f2;
-    padding: 40px;
+    padding: 20px;
     border-radius: 20px;
 }
-
-
 
 i.fas.fa-star {
   color: #0065fc;
 }
-
-
 
 i.far.fa-star {
   color: gray;
   border-color: #F2F2F2;
 }
 
-h3 {
-      margin-top: 50px;
-    padding: 5px;
-    margin-left: -10px;
+.marseille {
+      margin-top: 25px;
+    padding: 5px
+    margin-left: 25px;
+    margin-bottom: 5px;
 }
 
 .activites_marseille {
   margin-top: 150px;
 }
+
+
+
 
