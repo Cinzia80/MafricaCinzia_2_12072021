@@ -279,7 +279,8 @@ i.fas.fa-star {
 .hebergements_block {
   display: flex;
   flex-direction: row;
-  grid-gap: 250px;
+  grid-gap: 100px;
+  margin-top: 50px;
 }
 
 
@@ -320,6 +321,7 @@ strong {
 .titre_pop ul li {
   list-style: none;
   display: inline-block;
+  margin-left: -40px;
 }
 
 .titre_pop i {
@@ -353,11 +355,11 @@ strong {
 .texte_pop {
   width: 175px;
   margin-left: -10px;
-  margin-right: 200px;
+  margin-right: 100px;
   height: 100px;
 }
 
-.star ul {
+.star ul  {
   margin-top: 40px;
   margin-left: -40px;
   list-style: none;
@@ -480,6 +482,7 @@ strong {
   width: 100%;
   min-width: 250px;
   max-width: 350px;
+  object-fit: cover;
 }
 
 .act_5  {
@@ -498,7 +501,8 @@ strong {
   height: 140px;
   width: 100%;
   min-width: 250px;
-  max-width: 350px
+  max-width: 350px;
+  object-fit: cover;
 }
 
 .act_6 {
@@ -519,6 +523,7 @@ strong {
   max-width: 350px;
   width: 100%;
   min-width: 250px;
+  object-fit: cover;
 }
 
 
