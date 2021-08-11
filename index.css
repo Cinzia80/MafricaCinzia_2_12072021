@@ -5,6 +5,20 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
+@media screen and (min-width: 600px) {
+  }
+  
+
+@media screen and (min-width: 1080px) {
+  }
+
+@media only screen and (min-width: 1280px) {
+.hebergements_block {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+} 
+}
 
 .logo {
   height: auto;
@@ -276,12 +290,7 @@ i.fas.fa-star {
  float: right;
 }
 
-.hebergements_block {
-  display: flex;
-  flex-direction: row;
-  grid-gap: 100px;
-  margin-top: 50px;
-}
+
 
 
 strong {
