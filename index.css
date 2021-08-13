@@ -5,20 +5,19 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
-@media screen and (min-width: 600px) {
-  }
+
   
 
 @media screen and (min-width: 1080px) {
   }
 
-@media only screen and (min-width: 1280px) {
+
 .hebergements_block {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 30px;
 } 
-}
+
 
 .logo {
   height: auto;
@@ -40,7 +39,8 @@ a:visited {
   text-decoration: none;
 }
 
-.menu_droite ul li a {
+.menu_droite ul li a {grid-template-columns: auto;
+    grid-template-rows: auto auto;
   color: black;
 }
 
@@ -565,3 +565,51 @@ footer {
   padding: 10px 0;
 }
 
+@media only screen and (min-width: 1280px) {}
+
+@media screen and (max-width: 600px) {
+
+  .hebergements_block {
+   grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+
+section {
+    padding: 0;
+}
+
+.wrap_block {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0;
+    padding: 2rem 1rem 0rem 1rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#heb_marseille {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+} 
+
+.block_hotel {
+    height: 180px;
+    max-width: 350px;
+    min-width: none;
+    width: fit-content;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-left: 0;
+}   
+
+.block_hotel img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 350px;
+  }
+
+
+}
