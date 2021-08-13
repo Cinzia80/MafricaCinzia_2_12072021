@@ -569,6 +569,27 @@ footer {
 
 @media screen and (max-width: 600px) {
 
+  body {
+    padding: 0px;
+  }
+
+  .menu_gauche {
+    padding: 1rem
+  }
+
+  .menu_droite {
+    display: 
+  }
+
+  .reve {
+    margin-top: 80px;
+  }
+.search {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hebergements_block {
    grid-template-columns: auto;
     grid-template-rows: auto auto;
@@ -610,6 +631,69 @@ section {
     width: 100%;
     max-width: 350px;
   }
+.plus_populaires {
+grid-gap: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 105%;
+    padding: 0;
+    margin-left: -10px;
+    border-radius: 0;
+}
 
+.titre_pop {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block_pop {
+  width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_pop {
+    width: 150px;
+    margin-left: 20px;
+    height: 170px;
+}
+
+.searchButton {
+    visibility: hidden;
+    display: none;
+  }
+
+.loupe {
+    display: inline;
+    width: 30px;
+    border: 1px solid #0065fc;
+    background: #0065fc;
+    text-align: center;
+    color: #f2f2f2;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 12px;
+    height: 20px;
+    }
+
+    .Filtres {
+    display: block;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .info ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info ul li {
+    margin-top: 5px;
+  }
 
 }
