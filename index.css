@@ -106,7 +106,6 @@ h5 {
 
 
 .wrap {
-  width: 50%;
   display: flex;
 }
 
@@ -565,7 +564,11 @@ footer {
   padding: 10px 0;
 }
 
-@media only screen and (min-width: 1280px) {}
+@media only screen and (max-width: 1280px) {
+  .wrap {
+    width: 50%;
+}
+}
 
 @media screen and (max-width: 600px) {
 
@@ -617,9 +620,6 @@ section {
 
 .block_hotel {
     height: 180px;
-    max-width: 350px;
-    min-width: none;
-    width: fit-content;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
     padding-bottom: 10px;
     margin-top: 0;
@@ -631,13 +631,13 @@ section {
     width: 100%;
     max-width: 350px;
   }
+
 .plus_populaires {
 grid-gap: 30px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    width: 105%;
     padding: 0;
     margin-left: -10px;
     border-radius: 0;
@@ -765,7 +765,6 @@ height: 140px;
    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
     height: 180px;
     border-radius: 20px 20px 20px 20px;
-    min-width: none;
     margin-left: -20px;
 }
 
@@ -778,7 +777,6 @@ height: 140px;
    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
     height: 180px;
     border-radius: 20px 20px 20px 20px;
-    min-width: none;
     margin-left: -20px;
 }
 
@@ -789,7 +787,6 @@ height: 140px;
 
 footer {
     background-color: #f2f2f2;
-    width: 104%;
     margin-top: 70px;
     padding-bottom: 10px;
     display: flex;
