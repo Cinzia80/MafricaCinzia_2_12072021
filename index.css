@@ -1,147 +1,149 @@
-/*versione desktop*/
-@media screen and (max-width: 1820px) {
+@media only screen and (max-width: 1280px) {
 
-  .wrap {
-    width: 50%;
-  }
+}
 
-  body {
-    font-family: "Raleway", sans-serif;
-    padding: 0.5rem 1rem 0rem 1rem;
-  }
+.wrap {
+  width: 50%;
+}
 
-  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  padding: 0.5rem 1rem 0rem 1rem;
+}
 
-  .hebergements_block {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 30px;
-  } 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
-  .logo {
-    height: auto;
-  }
+.hebergements_block {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+} 
 
-  a {
-    text-decoration-line: none;
-    color: #0065FC;
-  }
+.logo {
+  height: auto;
+}
 
-  a:visited {
-    color: #0065FC;
-  }
+a {
+  text-decoration-line: none;
+  color: #0065FC;
+}
 
-  .menu_droite {
-    display: flex;
-    flex-direction: row;
-    float: right;
-    text-decoration: none;
-  }
+a:visited {
+  color: #0065FC;
+}
 
-  .menu_droite ul li a {grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    color: black;
-  }
+.menu_droite {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  text-decoration: none;
+}
 
-  .menu_droite li {
-    display: inline-block;
-    margin-left: 50px;
-    list-style: none;
-    text-decoration: none;
-  }
+.menu_droite ul li a {
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  color: black;
+}
 
-  .menu_droite li a:hover {
-    color: #0065FC;
-    border-top: 2px solid #0065fc;
-    padding-top: 30px;
-  }
+.menu_droite li {
+  display: inline-block;
+  margin-left: 50px;
+  list-style: none;
+  text-decoration: none;
+}
 
-  .inscription {
-    color: #0065fc;
-    font-weight: bold;
-  }
+.menu_droite li a:hover {
+  color: #0065FC;
+  border-top: 2px solid #0065fc;
+  padding-top: 30px;
+}
 
-  .menu_activites a {
-    color: black;
-  }
+.inscription {
+  color: #0065fc;
+  font-weight: bold;
+}
 
-  .menu_gauche {
-    display: inline-block;
-    float: left;
-    list-style: none;
-  }
+.menu_activites a {
+  color: black;
+}
 
-  header .inscription {
-    color: #0065fc;
-  }
+.menu_gauche {
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
 
-  header {
-    height: 50px;
-  }
+header .inscription {
+  color: #0065fc;
+}
 
-  main h1 {
-    font-size: 20px;
-  }
+header {
+  height: 50px;
+}
 
-  .reve {
-    margin-top: 25px;
-    display: flex;
-    font-family: -webkit-pictograph;
-    font-size:22px;
-  }
+main h1 {
+  font-size: 20px;
+}
 
-  main p {
-    margin-top: 10px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  }
+.reve {
+  margin-top: 25px;
+  display: flex;
+  font-family: -webkit-pictograph;
+  font-size:22px;
+}
 
-  h5 {
+main p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
 
-    font-size: 15px;
-    font-weight: 400;
-    color: #524e4e;
-  }
+h5 {
 
-
-  .wrap {
-    display: flex;
-  }
-
-  .search {
-    width: 350px;
-    display: flex;
-  }
-
-  .map {
-    background-color: #f2f2f2;
-    border-radius: 15px 0px 0px 15px;
-    width: 35px;
-    padding: 15px;
-    height: auto;
-    text-align: center;
-  }
-
-  .searchTerm {
-   width: 100%;
-   border: 3px solid #f2f2f2;
-   border-right: none;
-   border-left: none;
-   padding: 5px;
-   padding-left: 25px;
-   padding-right: 25px;
-   height: 32px;
-   outline: none;
-   color: #121312;
-   font-size: 15px;
-   font-weight: bold;
-   text-align: left;
-   font-family: "Raleway Medium";
- }
+  font-size: 15px;
+  font-weight: 400;
+  color: #524e4e;
+}
 
 
+.wrap {
+  display: flex;
+}
 
- .searchButton {
+.search {
+  width: 350px;
+  display: flex;
+}
+
+.map {
+  background-color: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+  width: 35px;
+  padding: 15px;
+  height: auto;
+  text-align: center;
+}
+
+.searchTerm {
+ width: 100%;
+ border: 3px solid #f2f2f2;
+ border-right: none;
+ border-left: none;
+ padding: 5px;
+ padding-left: 25px;
+ padding-right: 25px;
+ height: 32px;
+ outline: none;
+ color: #121312;
+ font-size: 15px;
+ font-weight: bold;
+ text-align: left;
+ font-family: "Raleway Medium";
+}
+
+
+
+.searchButton {
   width: 200px;
   height: 47px;
   border: 1px solid #0065fc;
@@ -234,7 +236,6 @@ p {
 .info ul li p {
   margin-left: 10px;
 }
-
 
 
 img {
@@ -532,9 +533,7 @@ footer {
   padding: 30px;
 }
 
-.menu_footer div {
-  padding-right: 300px;
-}
+
 
 .menu_footer {
  display: flex;
@@ -555,6 +554,7 @@ footer {
   padding: 10px 0;
 }
 
+
 .menu_droite_portable_inscrire {
   display: none;
 }
@@ -562,156 +562,28 @@ footer {
 .menu_portable {
   display: none;
 }
-}
-/*fine_versione desktop*/
-
-/*versione pour tablette*/
-@media screen and (max-width: 1080px) {
-
-body {
-  padding: 20px;
-}
-
-.hebergements_block {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-  #heb_marseille {
-    margin-top: -60px;
-    font-size: 18px;
-  }
-
-  .block_hotel img {
-    height: 100px;
-    width: 450px;
-    object-fit: cover;
-  }
-
-  .block_hotel {
-    background-color: rgb(255,255,255);
-    border-radius: 20px;
-    height: 170px;
-    width: fit-content;
-    padding: 5px 5px 5px 5px;
-    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
-    margin-top: -10px;
-    margin-left: -40px;
-}
-
-  .wrap_block {
-    display: flex;
-    width: 400px;
-    background-color: #F2F2F2;
-    padding: 100px;
-    border-radius: 20px;
-    flex-direction: column;
-    margin-left: 0px;
-    align-content: stretch;
-    justify-content: center;
-    margin-top: 25px;
-    grid-gap: 50px;
-  }
-
-  .block_hotel img {
-    height: 100px;
-    width: 450px;
-    object-fit: cover;
-  }
-
- h4 {
-  font-size: 20px;
-    margin-top: 50px;
-    margin-left: 10px;
-}
-
-  .plus_populaires {
-    margin-top: 25px;
-    width: 250px;
-    grid-gap: 300px;
-  }
-
-.titre_pop ul {
-margin-left: 10px;
-}
-  
-  .titre_pop i {
-    margin-left: 80px;
-  }
-
-  .block_pop {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px 5px 5px 5px;
-    height: 330px;
-    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
-    margin-top: -330px;
-  }
-
-  .block_pop img {
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-    height: 180px;
-    width: 250px;
-  }
-
-  .text_pop ul {
-    margin-top: 40px;
-    margin-left: -35px;
-  }
-
-.activites_tout {
-  margin-left: 50px;
-}
-
-#titre_activites {
-  margin-left: 20px;
-}
-
-.activites_marseille {
-display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.activites_marseille_2 {
-display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 150px;
-}
-
-
-
-footer {
-
-}
-}
-/*fine versione tablette*/
 
 
 
 
-
-/*version pour mobile*/
 @media screen and (max-width: 600px) {
 
   body {
-    padding: 0px;
+    padding: 10px;
   }
 
   .wrap {
     width: 100%;
   }
 
-  main {
-   padding: 0 20px; 
+  .main {
+   padding: 2rem 1rem 0rem 1rem;
+   margin-block: auto;
  }
 
  .menu_gauche {
-  padding: 1rem
+  display: block;
+  padding: 1rem;
 }
 
 .menu_droite {
@@ -730,10 +602,12 @@ footer {
   list-style: none;
 }
 
+.menu_droite_portable_inscrire ul li {
+
+}
+
 .menu_portable {
   display: block;
-  margin-left: -8px;
-  margin-right: -8px;
 }
 
 .menu_portable ul {
@@ -767,13 +641,6 @@ footer {
   margin-top: 80px;
 }
 
-.search {
-
-}
-
-.searchTerm {
-
-}
 
 .hebergements_block {
  grid-template-columns: auto;
@@ -781,7 +648,7 @@ footer {
 }
 
 section {
-  padding: 0;
+
 }
 
 .wrap_block {
@@ -793,10 +660,12 @@ section {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 0;
 } 
 
 .searchButton1 {
   margin-left: 0;
+  margin-right: -2px;
 }
 
 #heb_marseille {
@@ -806,13 +675,14 @@ section {
 
 h3 {
   font-size: 22px;
-  margin-left: 10px;
-  margin-bottom: -5px;
-  margin-top: -10px;
 }
 
 h4 {
   font-size: 18px;
+}
+
+.titre_pop i {
+  margin-left: 150px;
 }
 
 .block_hotel {
@@ -825,11 +695,7 @@ h4 {
 
 .block_hotel img {
   object-fit: cover;
-  width: 100%;
-  max-width: 350px;
-  object-fit: cover;
-  width: 350px;
-  height: 120px;
+  
 }
 
 .block_pop img {
@@ -839,27 +705,35 @@ h4 {
   width: 140px;
 }
 
-.plus_populaires {
-  grid-gap: 30px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  padding: 5px 5px 40px 5px;
-  border-radius: 0;
-  margin-top: 20px;
-}
-
-.titre_pop {
+.block_pop {
+  width: fit-content;
+  height: fit-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+.plus_populaires {
+ grid-gap: 10px;
+ grid-column-start: 1;
+ grid-column-end: 2;
+ grid-row-start: 1;
+ grid-row-end: 2;
+ width: 105%;
+ height: 650px;
+ padding: 0;
+ margin-left: -15px;
+ margin-top: 10px;
+ border-radius: 0;
+}
+
+
+.titre_pop {
+  margin-left: 20px;
 }
 
 .block_pop {
-  width: 350px;
   height: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 15px;
   display: flex;
   flex-direction: row;
 }
@@ -903,6 +777,7 @@ h4 {
 
 .info ul li {
   margin-top: 5px;
+  margin-left: 5px;
 }
 
 .activites_tout {
@@ -1000,10 +875,11 @@ h4 {
 footer {
   background-color: #f2f2f2;
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  display: block;
   border-radius: 0;
-  padding: 30px;
+  padding: 70px;
+  margin-left: -20px;
+
 }
 
 footer ul {
@@ -1019,32 +895,28 @@ footer li {
 
 .menu_footer {
   background-color: #f2f2f2;
-  margin-top: 70px;
+  margin-top: 50px;
   padding-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0;
+  display: block;
+  margin-left: -20px;
 }
 
-.menu_footer ul {
-  list-style-type: none;
-  padding: 0;
-  margin-right: -40px;
-}
 
 .menu_footer ul li a {
   font-size: 15px;
 }
 
 footer h4 {
-  font-size: 15px;
+  font-size: 20px;
 }
+
 
 .A_propos {
   margin-left: 0px;
   font-size: 15px;
   margin-top: -70px;
   margin-left: -20px;
+  padding-right: 0;
 }
 
 .Nos_hebergements {
@@ -1061,5 +933,9 @@ footer h4 {
  margin-top: 20px;
 }
 
-
 }
+
+
+
+
+
