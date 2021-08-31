@@ -313,7 +313,7 @@ strong {
   list-style: none;
   display: inline-block;
   margin-left: -40px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .titre_pop i {
@@ -342,6 +342,11 @@ strong {
   object-fit: cover;
   height: 140px;
   width: 140px;
+}
+
+.titre_hotel {
+  font-size:20px !important;
+  font-weight: 600 !important;
 }
 
 .texte_pop {
@@ -539,7 +544,7 @@ footer {
 .menu_footer ul li a {
   color: #121312ad;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
   padding: 10px 0;
 }
 
@@ -590,7 +595,7 @@ footer {
   }
 
   main {
-    padding: 2rem 1rem 0rem 1rem;
+    padding: 0;
   }
 
   .menu_portable ul li a:hover {
@@ -751,7 +756,7 @@ h4 {
 }
 
 .titre_pop i {
-  margin-left: 150px;
+  margin-left: 120px;
 }
 
 .block_hotel {
@@ -766,6 +771,11 @@ h4 {
   object-fit: cover;
   width: 330px;
 }
+
+.titre_hotel {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
 
 .block_pop img {
   border-radius: 20px 0px 0px 20px;
@@ -1038,6 +1048,13 @@ footer h4 {
   .activites_tout {
     display: block;
   }
+
+.activites_marseille_2 {
+    display: grid;
+    grid-template-rows: 100px 200px 200px;
+    grid-gap: 20px;
+    margin-top: -50px;
+}
 }
 
 @media only screen and (max-width: 1080px) {
@@ -1049,8 +1066,6 @@ footer h4 {
     justify-content: start;
   }
 }
-
-
 
 /***********************Version Desktop********************************/
 
@@ -1083,6 +1098,15 @@ footer h4 {
 
 @media only screen and (min-width: 1280px){
 
+.titre_pop i {
+    margin-left: 270px;
+}
+
+.Filtres {
+    display: flex;
+    margin-top: 10px;
+}
+
   .block_hotel img {
     height: 100px;
     width: 250px;
@@ -1113,6 +1137,9 @@ footer h4 {
     margin-top: -20px;
   }
 
+h4 {
+  font-size: 22px;
+}
 
   .block_pop {
     width: 500px;
@@ -1121,7 +1148,7 @@ footer h4 {
   .block_pop img {
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
-    height: 150px;
+    height: 160px;
     width: 200px;
   }
 
@@ -1158,6 +1185,7 @@ footer h4 {
     margin-right: 500px;
   }
 
-
-
+  .menu_footer ul li {
+    padding: 10px 0;
+  }
 }
