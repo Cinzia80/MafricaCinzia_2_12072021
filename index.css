@@ -91,12 +91,10 @@ main p {
 }
 
 h5 {
-
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
   color: #524e4e;
 }
-
 
 .wrap {
   display: flex;
@@ -336,10 +334,7 @@ strong {
   width: 140px;
 }
 
-.titre_hotel {
-  font-size:20px !important;
-  font-weight: 600 !important;
-}
+
 
 .texte_pop {
   width: 175px;
@@ -358,7 +353,7 @@ strong {
 
 #titre_activites {
   font_size: 20px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .activites_tout {
@@ -811,7 +806,7 @@ h4 {
 
 .text_pop {
   height: 170px;
-  margin-right: 30px;
+  padding-right:10px;
 }
 
 .searchButton {
@@ -1021,7 +1016,7 @@ footer h4 {
 
   main p {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 16px;
     color: rgb(0, 0, 0);
     margin-left: 20px;
   }
@@ -1032,6 +1027,7 @@ footer h4 {
     grid-template-columns: min-content;
     justify-content: start
   }
+
   .wrap_block {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -1041,6 +1037,8 @@ footer h4 {
     padding: 20px;
     border-radius: 20px;
   }
+
+
 
   .activites_tout {
     display: block;
@@ -1062,11 +1060,19 @@ footer h4 {
     grid-template-columns: min-content;
     justify-content: start;
   }
+
+
 }
 
 /***********************Version Desktop********************************/
 
 @media only screen and (min-width: 1080px){
+
+.titre_hotel {
+  font-size:20px !important;
+  font-weight: 600 !important;
+  margin-right:60px;
+}
 
 .logo {
     height: 60px;
@@ -1099,6 +1105,93 @@ footer h4 {
     border-radius: 20px;
     grid-gap: 50px;
 }
+.act_1 {
+    width: 120%;
+    max-width: 380px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
+    height: 420px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.act_1 img {
+    height: 380px;
+    width: 120%;
+    min-width: 250px;
+    max-width: 380px;
+    object-fit: cover;
+    }
+
+.act_2 {
+    width: 120%;
+    max-width: 350px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
+    height: 210px;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+ .act_3 {
+    width: 120%;
+    max-width: 350px;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 20px 20px 20px 20px;
+    height: 150px;
+}
+
+.act_4 {
+    width: 120%;
+    max-width: 380px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
+    height: 420px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.act_4 img {
+    height: 380px;
+    width: 120%;
+    min-width: 250px;
+    max-width: 380px;
+    object-fit: cover;
+}
+
+.act_5 {
+    height: 180px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
+    width: 120%;
+    max-width: 350px;
+    border-radius: 20px 20px 20px 20px;
+}
+.act_6 {
+    height: 180px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
+    width: 120%;
+    max-width: 350px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
 }
 
 @media only screen and (min-width: 1280px){
@@ -1114,7 +1207,7 @@ footer h4 {
 
   .block_hotel img {
     height: 100px;
-    width: 250px;
+    width: 240px;
     object-fit: cover;
   }
 
@@ -1122,7 +1215,7 @@ footer h4 {
     background-color: rgb(255,255,255);
     border-radius: 20px;
     height: 170px;
-    width: 250px;
+    width: 240px;
     padding: 5px 5px 5px 5px;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
     margin-top: -10px;
@@ -1139,7 +1232,6 @@ footer h4 {
     grid-column: 1 / span 3;
     grid-row: 1;
     font-size: 22px;
-    margin-top: -20px;
   }
 
 h4 {
@@ -1154,7 +1246,7 @@ h4 {
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
     height: 160px;
-    width: 200px;
+    width: 180px;
   }
 
   .text_pop li strong {
