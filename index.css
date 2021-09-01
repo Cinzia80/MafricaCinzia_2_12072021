@@ -1038,10 +1038,29 @@ footer h4 {
     border-radius: 20px;
   }
 
+  
 
+.titre_pop i {
+    margin-left: 360px;
+}
 
-  .activites_tout {
+.block_pop img {
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    height: 140px;
+    width: 200px;
+}
+
+.activites_tout {
     display: block;
+  }
+
+  .activites_marseille {
+    display: grid;
+    grid-template-rows: 100px 250px 150px;
+    margin-top: 30px;
+    grid-gap: 20px;
+    margin-left: 20px;
   }
 
 .activites_marseille_2 {
@@ -1060,8 +1079,6 @@ footer h4 {
     grid-template-columns: min-content;
     justify-content: start;
   }
-
-
 }
 
 /***********************Version Desktop********************************/
@@ -1271,7 +1288,8 @@ h4 {
   .activites_tout {
     display: flex;
     flex-direction: row;
-    grid-gap: 80px;
+    grid-gap: 75px;
+    margin-left:-10px;
   }
 
   .menu_footer {
