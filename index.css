@@ -1027,6 +1027,14 @@ footer h4 {
 
   .Filtres {
     display: block;
+    margin-left:-10px;
+  }
+
+  main p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
   }
 
   .hebergement_block {
