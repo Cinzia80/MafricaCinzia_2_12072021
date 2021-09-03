@@ -1177,6 +1177,31 @@ header {
     height: 60px;
   }
 
+  body {
+    margin-top: 10px;
+  }
+  .menu_droite {
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+  .menu_droite a {
+    text-decoration: none;
+    padding: 30px;
+    font-size: 18px;
+    color: black;
+  }
+  .menu_droite a:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065fc;
+    padding-top: 20px;
+  }
+  .inscription a {
+    color: #0065FC;
+  }
+  
+  a:link {
+    color: black;
+  }
   .menu_droite {
     font-size: 18px;
   }
