@@ -1195,10 +1195,11 @@ header {
     border-top: 2px solid #0065fc;
     padding-top: 20px;
   }
-  .inscription a {
+
+  .inscription  {
     color: #0065FC;
   }
-  
+
   a:link {
     color: black;
   }
