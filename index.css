@@ -5,6 +5,7 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
+
 .hebergements_block {
   display: grid;
   grid-gap: 80px;
@@ -135,7 +136,7 @@ h5 {
   width: 200px;
   height: 47px;
   border: 1px solid #0065fc;
-  background:#0065fc;
+  background-color:#0065fc;
   text-align: center;
   color: #f2f2f2;
   border-radius: 0 15px 15px 0;
@@ -164,6 +165,10 @@ h5 {
 .searchButton1 p {
   font-weight: bold;
   margin-left: 50px;
+}
+
+.searchButton1:hover {
+  background-color: #F2F2F2;
 }
 
 .Filtres {
@@ -311,6 +316,14 @@ strong {
   margin-left: 180px;
 }
 
+.text_heb li {
+  color: black;
+}
+
+.text_pop li {
+  color: black;
+}
+
 .block_pop {
   display: flex;
   flex-direction: row;
@@ -364,6 +377,7 @@ strong {
   padding-left: 20px;
   margin-bottom: 10px;
   margin-top: 10px;
+  color: black;
 }
 
 .activites_marseille {
@@ -1046,11 +1060,8 @@ footer h4 {
 
 /************************Version IPad********************************/
 
-@media only screen and (min-width: 650px) and (max-width:1080px){
+@media only screen and (min-width: 650px) and (max-width:1024px){
 
-body {
-  background-color: red;
-}
 header {
   margin-top: 20px;
 }
@@ -1168,7 +1179,7 @@ header {
 
 /***********************Version Desktop********************************/
 
-@media only screen and (min-width: 1080px){
+@media only screen and (min-width: 1024px) {
 
   .titre_hotel {
     font-size:20px !important;
@@ -1239,7 +1250,7 @@ header {
   }
 
   .act_1 {
-    width: 120%;
+    width: 100%;
     max-width: 380px;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -1252,14 +1263,14 @@ header {
 
   .act_1 img {
     height: 380px;
-    width: 120%;
+    width: 350px;
     min-width: 250px;
     max-width: 380px;
     object-fit: cover;
   }
 
   .act_2 {
-    width: 120%;
+    width: 300px;
     max-width: 350px;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -1271,7 +1282,7 @@ header {
   }
 
   .act_3 {
-    width: 120%;
+    width: 100%;
     max-width: 350px;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
     grid-column-start: 2;
@@ -1283,7 +1294,7 @@ header {
   }
 
   .act_4 {
-    width: 120%;
+    width: 100%;
     max-width: 380px;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -1296,7 +1307,7 @@ header {
 
   .act_4 img {
     height: 380px;
-    width: 120%;
+    width: 350px;
     min-width: 250px;
     max-width: 380px;
     object-fit: cover;
@@ -1309,7 +1320,7 @@ header {
     grid-row-start: 2;
     grid-row-end: 3;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
-    width: 120%;
+    width: 300px;
     max-width: 350px;
     border-radius: 20px 20px 20px 20px;
   }
@@ -1320,15 +1331,17 @@ header {
     grid-row-start: 3;
     grid-row-end: 4;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
-    width: 120%;
+    width: 100%;
     max-width: 350px;
     border-radius: 20px 20px 20px 20px;
     margin-top: 20px;
   }
+
+
+
+body {
+  background-color: red;
 }
-
-@media only screen and (min-width: 1280px) {
-
   .titre_pop i {
     margin-left: 270px;
   }
@@ -1412,12 +1425,14 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 500px;
   }
 
   .menu_footer ul li {
     padding: 5px 0;
+  }
+
+  .Nos_hebergements {
+    padding-right: 200px;
   }
 
   .star_hotel ul  {
