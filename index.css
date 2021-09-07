@@ -320,6 +320,10 @@ strong {
   color: black;
 }
 
+.text_heb a:visited {
+  color: black;
+}
+
 .text_pop li {
   color: black;
 }
@@ -1336,8 +1340,6 @@ header {
     border-radius: 20px 20px 20px 20px;
     margin-top: 20px;
   }
-
-
 
 body {
   background-color: red;
