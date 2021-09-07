@@ -1,7 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   padding: 0.5rem 1rem 0rem 1rem;
-  }
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
@@ -548,6 +548,16 @@ footer {
   padding: 10px 0;
 }
 
+.A_propos {
+  width: 33%;
+}
+.Nos_hebergements {
+  width: 33%;
+}
+.Asssistance {
+  width: 33%;
+}
+
 .menu_droite_portable_inscrire {
   display: none;
 }
@@ -558,7 +568,9 @@ footer {
 
 /*****Version mobile****************************************************************/
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px){
+
+
 
   body {
     padding: 0px;
@@ -846,7 +858,7 @@ span {
   margin-left: 25px;
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 350px;
 }
 
 .text_pop {
@@ -1011,7 +1023,7 @@ footer ul {
   list-style: none;
   margin-left: -40px;
   margin-bottom: 30px;
-  width: 90%;
+  width: max-content;
 }
 
 footer li {
@@ -1019,10 +1031,12 @@ footer li {
 }
 
 .menu_footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
   background-color: #f2f2f2;
   margin-top: 30px;
   padding-bottom: 10px;
-  display: block;
 }
 
 .menu_footer ul li a {
@@ -1045,7 +1059,8 @@ footer h4 {
   margin-left: 0px;
   font-size: 15px;
   margin-left: -20px;
-  margin-top: 20px ;
+  margin-top: 20px;
+  width: max-content;
 }
 
 .Assistance {
@@ -1060,9 +1075,9 @@ footer h4 {
 
 @media only screen and (min-width: 650px) and (max-width: 1024px) {
 
-header {
-  margin-top: 20px;
-}
+  header {
+    margin-top: 20px;
+  }
   .Filtres {
     display: block;
     margin-left:-10px;
@@ -1165,13 +1180,13 @@ header {
     font-size:18px;
   }
 
-.A_propos {
-  margin-right: 50px;
-}
+  .A_propos {
+    margin-right: 50px;
+  }
 
-.Nos_hebergements {
-  margin-right: 50px;
-}
+  .Nos_hebergements {
+    margin-right: 50px;
+  }
   .menu_footer ul li {
     padding: 2px 0;
   }
@@ -1181,20 +1196,18 @@ header {
     padding:0px;
   }
 
-   footer {
+  footer {
     background-color: #F2F2F2;
     margin-top: 50px;
     padding: 30px;
     margin-left: -50px;
     width: 100%;
-}
+  }
 }
 
 /***********************Version Desktop********************************/
 
-@media only screen and (min-width: 1024px){
-
-
+@media only screen and (min-width: 1024px) {
 
   .titre_hotel {
     font-size:20px !important;
@@ -1206,7 +1219,7 @@ header {
     height: 60px;
   }
 
- .menu_droite a {
+  .menu_droite a {
     text-decoration: none;
     padding: 30px;
     font-size: 18px;
@@ -1242,7 +1255,6 @@ header {
     display: flex;
     flex-direction: row;
   }
-
 
   .hebergements_block {
     display: grid;
@@ -1449,6 +1461,18 @@ header {
     margin-right: 100px;
   }
 
+  .A_propos {
+    width: 33%;
+  }
+
+  .Nos_hebergements {
+    width: 33%;
+  }
+
+  .Asssistance {
+    width: 33%;
+  }
+
   .star_hotel ul  {
     margin-left: -40px;
     list-style: none;
@@ -1462,5 +1486,5 @@ header {
     padding: 30px;
     margin-left: -50px;
     width: 100%;
-}
+  }
 }
