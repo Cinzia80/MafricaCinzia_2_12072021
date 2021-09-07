@@ -1,12 +1,9 @@
 body {
   font-family: "Raleway", sans-serif;
   padding: 0.5rem 1rem 0rem 1rem;
-  background-color: green;
-}
+  }
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
-
-
 
 .hebergements_block {
   display: grid;
@@ -1066,7 +1063,7 @@ footer h4 {
 
 /************************Version IPad********************************/
 
-@media only screen and (min-width: 650px) and (max-width:1024px){
+@media only screen and (min-width: 650px) and (max-width: 1024px) {
 
 header {
   margin-top: 20px;
