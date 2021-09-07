@@ -521,6 +521,14 @@ strong {
   object-fit: cover;
 }
 
+footer {
+  background-color: #F2F2F2;
+  margin-top: 50px;
+  width: 100%;
+  padding: 30px;
+  margin-left: -50px;
+}
+
 .menu_footer {
  display: flex;
  flex-direction: row;
@@ -538,18 +546,6 @@ strong {
   text-decoration: none;
   font-size: 18px;
   padding: 10px 0;
-}
-
-.A_propos {
-  width: 33%;
-}
-
-.Nos_hebergements {
-  width: 33%;
-}
-
-.Asssistance {
-  width: 33%;
 }
 
 .menu_droite_portable_inscrire {
@@ -1192,10 +1188,13 @@ header {
     margin-left: -50px;
     width: 100%;
 }
+}
 
 /***********************Version Desktop********************************/
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px){
+
+
 
   .titre_hotel {
     font-size:20px !important;
@@ -1243,6 +1242,7 @@ header {
     display: flex;
     flex-direction: row;
   }
+
 
   .hebergements_block {
     display: grid;
