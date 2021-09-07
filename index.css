@@ -1,9 +1,11 @@
 body {
   font-family: "Raleway", sans-serif;
   padding: 0.5rem 1rem 0rem 1rem;
+  background-color: green;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
 
 
 .hebergements_block {
