@@ -29,7 +29,6 @@ a:visited {
   flex-direction: row;
   float: right;
   text-decoration: none;
-  margin-right: 20px;
 }
 
 .menu_droite ul li a {
@@ -522,18 +521,9 @@ strong {
   object-fit: cover;
 }
 
-footer {
-  background-color: #F2F2F2;
-  margin-top: 50px;
-  width: 100%;
-  padding: 30px;
-  margin-left: -50px;
-}
-
 .menu_footer {
  display: flex;
  flex-direction: row;
- justify-content: space-between;
  margin-left: 50px;
 }
 
@@ -550,6 +540,17 @@ footer {
   padding: 10px 0;
 }
 
+.A_propos {
+  width: 33%;
+}
+
+.Nos_hebergements {
+  width: 33%;
+}
+
+.Asssistance {
+  width: 33%;
+}
 
 .menu_droite_portable_inscrire {
   display: none;
@@ -561,7 +562,7 @@ footer {
 
 /*****Version mobile****************************************************************/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:600px) {
 
   body {
     padding: 0px;
@@ -849,7 +850,7 @@ span {
   margin-left: 25px;
   display: flex;
   flex-direction: row;
-  width: 350px;
+  width: 90%;
 }
 
 .text_pop {
@@ -890,7 +891,6 @@ span {
 .Filtres {
   display: block;
   margin-top: 20px;
-  padding: 5px 0 0 10px;
 }
 
 .info ul {
@@ -1039,7 +1039,6 @@ footer h4 {
 }
 
 .A_propos {
-  margin-left: 0px;
   font-size: 15px;
   margin-top: -20px;
   margin-left: -20px;
@@ -1170,6 +1169,13 @@ header {
     font-size:18px;
   }
 
+.A_propos {
+  margin-right: 50px;
+}
+
+.Nos_hebergements {
+  margin-right: 50px;
+}
   .menu_footer ul li {
     padding: 2px 0;
   }
@@ -1178,6 +1184,13 @@ header {
     font-size: 18px;
     padding:0px;
   }
+
+   footer {
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    padding: 30px;
+    margin-left: -50px;
+    width: 100%;
 }
 
 /***********************Version Desktop********************************/
@@ -1422,7 +1435,10 @@ header {
   .menu_footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+  }
+
+  .A_propos {
+    margin-right: 50px;
   }
 
   .menu_footer ul li {
@@ -1430,7 +1446,7 @@ header {
   }
 
   .Nos_hebergements {
-    padding-right: 200px;
+    margin-right: 100px;
   }
 
   .star_hotel ul  {
@@ -1439,4 +1455,12 @@ header {
     display: flex;
     flex-direction: row;
   }
+
+  footer {
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    padding: 30px;
+    margin-left: -50px;
+    width: 100%;
+}
 }
