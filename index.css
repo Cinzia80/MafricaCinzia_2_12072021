@@ -1,3 +1,4 @@
+
 body {
   font-family: "Raleway", sans-serif;
   padding: 0.5rem 1rem 0rem 1rem;
@@ -569,8 +570,6 @@ footer {
 /*****Version mobile****************************************************************/
 
 @media only screen and (max-width:600px){
-
-
 
   body {
     padding: 0px;
@@ -1207,7 +1206,7 @@ footer h4 {
 
 /***********************Version Desktop********************************/
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
 
   .titre_hotel {
     font-size:20px !important;
@@ -1244,10 +1243,7 @@ footer h4 {
     font-size: 18px;
     margin-top: 20px;
   }
-  .menu_droite {
-    font-size: 18px;
-  }
-
+  
   .star ul {
     margin-top: 40px;
     margin-left: -40px;
@@ -1255,12 +1251,6 @@ footer h4 {
     display: flex;
     flex-direction: row;
   }
-
-  .hebergements_block {
-    display: grid;
-    grid-gap: 80px;
-    justify-content: start;
-  } 
 
   .wrap_block {
     display: grid;
@@ -1478,13 +1468,5 @@ footer h4 {
     list-style: none;
     display: flex;
     flex-direction: row;
-  }
-
-  footer {
-    background-color: #F2F2F2;
-    margin-top: 50px;
-    padding: 30px;
-    margin-left: -50px;
-    width: 100%;
   }
 }
