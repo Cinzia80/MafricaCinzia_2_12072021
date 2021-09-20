@@ -1,87 +1,108 @@
 /************************Desktop**********************/
+
 body {
   font-family: "Raleway", sans-serif;
   padding: 0.5rem 1rem 0rem 1rem;
 }
+
 .logo {
   height: auto;
 }
+
 a {
   text-decoration-line: none;
   color: #0065FC;
 }
+
 a:visited {
   color: #0065FC;
 }
+
 .menu_droite {
   display: flex;
   flex-direction: row;
   float: right;
   text-decoration: none;
 }
+
 .menu_droite ul li a {
   text-decoration: none
   color: black;
 }
+
 .menu_droite li {
   display: inline-block;
   margin-left: 50px;
   list-style: none;
   text-decoration: none;
 }
+
 .menu_droite li a:hover {
   color: #0065FC;
   border-top: 2px solid #0065fc;
   padding-top: 30px;
 }
+
 .inscription {
   color: #0065fc;
   font-weight: bold;
 }
+
 .menu_activites a {
   color: black;
 }
+
 .menu_hebergements a {
   color: black;
 }
+
 .menu_gauche {
   display: inline-block;
   float: left;
   list-style: none;
 }
+
 .inscription {
   color: #0065fc;
 }
+
 header {
   height: 50px;
 }
+
 main h1 {
   font-size: 20px;
 }
+
 .reve {
   margin-top: 25px;
   display: flex;
   font-size:22px;
 }
+
 main p {
   margin-top: 10px;
   font-size: 15px;
   color: rgb(0, 0, 0);
 }
+
 h5 {
   font-size: 17px;
   font-weight: 400;
   color: #524e4e;
   margin-top: -10px;
 }
+
 .wrap {
-    width: 30%;
-    display: inline-block;
+  width: 30%;
+  display: inline-block;
 }
+
 .search {
   width: 350px;
   display: flex;
 }
+
 .map {
   background-color: #f2f2f2;
   border-radius: 15px 0px 0px 15px;
@@ -90,6 +111,7 @@ h5 {
   height: auto;
   text-align: center;
 }
+
 .searchTerm {
  width: 100%;
  border: 3px solid #f2f2f2;
@@ -105,6 +127,7 @@ h5 {
  font-weight: bold;
  text-align: left;
 }
+
 .searchButton {
   width: 200px;
   height: 47px;
@@ -119,9 +142,11 @@ h5 {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .loupe {
   display: none;
 }
+
 .searchButton1  {
   display: inline-block;
   border: 2px solid #f2f2f2;
@@ -134,22 +159,27 @@ h5 {
   margin-bottom: 10px;
   padding-right:15px;
 }
+
 .searchButton1 h2 {
   font-weight: bold;
   margin-left: 50px;
 }
+
 .searchButton1:hover {
   background-color: #F2F2F2;
 }
+
 .Filtres {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   padding: 20px 0px;
 }
+
 .Filtres h2 {
   font-size: 15px;
 }
+
 p {
   font-weight: bold;
   display: block;
@@ -158,6 +188,7 @@ p {
   margin-inline-start: 1px;
   margin-inline-end: 30px;
 }
+
 .Filtres_icon {
   position: absolute;
   background-color: #deebff;
@@ -168,16 +199,20 @@ p {
   width: 20px;
   margin-top:-2px;
 }
+
 .info i {
   position: relative;
   color: #0065fc;
 }
+
 .info {
   margin-left: -60px;
 }
+
 .info ul li {
  display: inline-block;
 }
+
 .info ul li i {
   padding: 4px;
   width: 15px;
@@ -187,25 +222,31 @@ p {
   margin-left: 15px;
   font-size: 12px;
 }
+
 .info ul li p {
   margin-left: 10px;
 }
+
 img {
   height:100px;
   border-radius: 15px 15px 0px 0px;
 }
+
 i.fas.fa-star {
   color: #0065fc;
   font-size: smaller;
 }
+
 #grey_star {
   color: #d1d1d1;
 }
+
 .hebergements_block {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 30px;  
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;  
 }
+
 .wrap_block {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -215,17 +256,21 @@ i.fas.fa-star {
   padding: 40px;
   border-radius: 20px;
 }
+
 #heb_marseille {
   grid-column: 1 / span 3;
   grid-row: 1;
 }
+
 .prix_pop {
   font-size: 16px;
 }
+
 strong {
   font-weight: 800;
   font-size: 14px;
 }
+
 .block_hotel {
   background-color: rgb(255,255,255);
   border-radius: 20px;
@@ -235,13 +280,16 @@ strong {
   box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
   margin-top: -10px;
 }
+
 .block_hotel ul li {
   list-style: none;
   font-size: 14px;
 }
+
 .titre_hotel {
   font-weight: bold;
 }
+
 .block_hotel {
   background-color: rgb(255,255,255);
   border-radius: 20px;
@@ -251,62 +299,81 @@ strong {
   box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
   margin-top: -10px;
 }
+
 .block_hotel ul li {
   list-style: none;
   font-size: 14px;
   padding-bottom: 5px;
 }
+
 .block_hotel img {
   height: 100px;
   width: 200px;
   object-fit: cover;
 }
+
 .block_hotel ul {
   text-align: left;
   margin-left: -30px;
   margin-top: 3px;
 }
+
 .titre_pop ul li {
   list-style: none;
   display: inline-block;
   margin-left: -40px;
   font-size: 22px;
 }
+
 .titre_pop i {
   margin-left: 180px;
 }
+
 .titre_heb {
   font-weight: bold;
 }
+
 .text_heb li {
   color: black;
 }
+
 .text_heb a:visited {
   color: black;
 }
+
 .text_pop li {
   color: black;
 }
+
+.text_pop {
+    width: 200px;
+    margin-left: 20px;
+    height: 100px;
+}
+
 .block_pop {
   display: flex;
   flex-direction: row;
   background-color: white;
   border-radius: 20px;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 0px 5px;
   height: fit-content;
   box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
   margin-top: -25px;
 }
+
 .block_pop ul li {
   list-style: none;
   font-size: 16px;
 }
+
 .block_pop img {
   border-radius: 20px 0px 0px 20px;
   object-fit: cover;
   height: 140px;
   width: 140px;
 }
+
 .star ul  {
   margin-top: 40px;
   margin-left: -40px;
@@ -314,6 +381,7 @@ strong {
   display: flex;
   flex-direction: row;
 }
+
 .star_hotel ul {
   margin-left: -40px;
   margin-top: -2px;
@@ -321,14 +389,17 @@ strong {
   display: flex;
   flex-direction: row;
 }
+
 #titre_activites {
   font-size: 20px;
   margin-top: 70px;
 }
+
 .activites_tout {
   display: flex;
   flex-direction: row;
 }
+
 .activites_tout h4 {
   font-size: 15px;
   padding-left: 20px;
@@ -336,10 +407,12 @@ strong {
   margin-top: 10px;
   color: black;
 }
+
 .activites_marseille img {
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
 }
+
 .act_1 {
   width: 100%;
   max-width: 350px;
@@ -351,6 +424,7 @@ strong {
   height: 420px;
   border-radius: 20px 20px 20px 20px;
 }
+
 .act_1 img {
   height: 380px;
   width: 100%;
@@ -358,6 +432,7 @@ strong {
   max-width: 350px;
   object-fit: cover;
 }
+
 .act_2 {
   width: 100%;
   max-width: 350px;
@@ -369,12 +444,14 @@ strong {
   height: 210px;
   border-radius: 20px 20px 20px 20px;
 }
+
 .act_2 img {
   height: 170px;
   max-width: 350px;
   min-width: 250px;
   width: 100%;
 }
+
 .act_3 {
   width: 100%;
   max-width: 350px;
@@ -386,12 +463,14 @@ strong {
   border-radius: 20px 20px 20px 20px;
   height: 150px;
 }
+
 .act_3 img {
   height: 110px;
   width: 100%;
   min-width: 250px;
   max-width: 350px;
 }
+
 .act_4 {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -403,6 +482,7 @@ strong {
   width: 100%;
   max-width: 350px;
 }
+
 .act_4 img {
   height: 380px;
   width: 100%;
@@ -410,6 +490,7 @@ strong {
   max-width: 350px;
   object-fit: cover;
 }
+
 .act_5  {
  height: 180px;
  grid-column-start: 2;
@@ -421,6 +502,7 @@ strong {
  max-width: 350px;
  border-radius: 20px 20px 20px 20px
 }
+
 .act_5 img {
   height: 140px;
   width: 100%;
@@ -428,6 +510,7 @@ strong {
   max-width: 350px;
   object-fit: cover;
 }
+
 .act_6 {
   height: 180px;
   grid-column-start: 2;
@@ -440,6 +523,7 @@ strong {
   border-radius: 20px 20px 20px 20px;
   margin-top: 20px;
 }
+
 .act_6 img {
   height: 140px;
   max-width: 350px;
@@ -447,6 +531,7 @@ strong {
   min-width: 250px;
   object-fit: cover;
 }
+
 footer {
   background-color: #f2f2f2;
   display: flex;
@@ -455,27 +540,31 @@ footer {
   margin-top: 70px;
   padding-bottom: 10px;
 }
+
 footer ul {
   list-style: none;
   margin-left: -40px;
 }
+
 footer li {
   margin-top: 10px;
 }
+
 footer h2 {
   font-size: 15px;
 }
+
 .a_propos {
-  
   font-size: 15px;
   width: 33%;
   padding-left: 20px;
 }
+
 .nos_hebergements {
-  
   font-size: 15px;
   width: 33%;
 }
+
 .assistance {
   width: 33%;
   font-size: 15px;
@@ -489,17 +578,21 @@ footer h2 {
   .menu_droite_portable_inscrire {
     display: none;
   }
+
   .menu_portable {
     display: none;
   }
+
   .loupe {
     display: none;
   }
-.hebergements_block {
+
+  .hebergements_block {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 30px;
   }
+
   .plus_populaires {
     display: grid;
     grid-template-columns: auto;
@@ -509,27 +602,27 @@ footer h2 {
     border-radius: 20px;
     float: right;
   }
-.activites_marseille {
+  .activites_marseille {
     display: grid;
     grid-template-rows: 100px 250px 150px;
     margin-top: 30px;
     grid-gap: 20px;
     width: 100%;
-}
-.activites_marseille_2 {
-display: grid;
+  }
+  .activites_marseille_2 {
+    display: grid;
     grid-template-rows: 100px 200px 200px;
     grid-gap: 20px;
     margin-top: 30px;
     width: 100%;
     margin-left: 20px;
-}
-.activites_tout {
+  }
+  .activites_tout {
     display: flex;
     flex-direction: row;
+  }
 }
-}
-  @media only screen and (min-width:768px) and (max-width: 1280px) {
+@media only screen and (min-width:768px) and (max-width: 1280px) {
   .menu_droite_portable_inscrire {
     display: none;
   }
@@ -543,7 +636,7 @@ display: grid;
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 30px;
- }
+  }
   .plus_populaires {
     display: grid;
     grid-gap: 50px;
@@ -562,8 +655,8 @@ display: grid;
   .activites_tout {
     display: flex;
     flex-direction: column;
-}
-.searchButton1 {
+  }
+  .searchButton1 {
     display: inline-block;
     border: 2px solid #f2f2f2;
     cursor: pointer;
@@ -573,7 +666,7 @@ display: grid;
     text-align: center;
     background-color: rgb(255, 255, 255);
     margin-bottom: 10px;
-}
+  }
 }
 
 /****************Breakpoint 1280px**********************/
@@ -584,29 +677,18 @@ display: grid;
     display: none;
   }
 
-    
-          
-            
-    
-
-          
-          
-            
-    
-
-          
-    
-    @@ -894,6 +894,7 @@ display: grid;
-  
   .menu_portable {
     display: none;
   }
+
   .loupe {
     display: none;
   }
+
   .filtres_portable {
     display: none;
   }
+
   .plus_populaires {
     display: grid;
     grid-gap: 50px;
@@ -614,7 +696,7 @@ display: grid;
     width: fit-content;
     padding: 20px 50px 40px 50px;
     padding-bottom: 30px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -622,15 +704,18 @@ display: grid;
     margin-right: auto;
     margin-left: auto;
   }
+
   .hebergements_block {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
   }
+
   .wrap_block {
     margin-left: auto;
     margin-right: auto;
   }
+
   .activites_marseille {
     display: grid;
     grid-template-columns: auto auto;
@@ -641,6 +726,7 @@ display: grid;
     margin-left: auto;
     margin-right: auto;
   }
+
   .activites_marseille_2 {
     margin-left: auto;
     margin-right: auto;
@@ -651,41 +737,52 @@ display: grid;
     margin-top: 30px;
     width: fit-content;
   }
+
   .activites_marseille img {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
   }
+
   .activites_marseille_2 img {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
   }
+
   .act_2 img {
     height: 200px;
   }
+
   .act_3 img {
     height: 100px;
   }
+
   .act_4 img {
     height: 150px;
   }
+
   .act_5 img {
     height: 150px;
   }
+
   .act_6 img {
     height: 380px;
   }
+
   .act_1 {
     min-width: 250px;
   }
+
   .act_2 {
     min-width: 0;
     height: 240px;
     border-radius: 20px 20px 20px 20px;
   }
+
   .act_3 {
     min-width: 0;
     height: 140px;
   }
+
   .act_4 {
     height: 190px;
     grid-column-start: 1;
@@ -694,6 +791,7 @@ display: grid;
     grid-row-end: 2;
     min-width: 0;
   }
+
   .act_5 {
     height: 190px;
     grid-column-start: 1;
@@ -702,6 +800,7 @@ display: grid;
     grid-row-end: 3;
     min-width: 250px;
   }
+
   .act_6 {
     height: 420px;
     grid-column-start: 2;
@@ -711,15 +810,17 @@ display: grid;
     min-width: 250px;
     margin-top: 0;
   }
+
   .activites_tout h2 {
     font-size: 15px;
     padding-left: 20px;
     margin-bottom: 5px;
   }
 }
+
 /*************************fin florian************************/
 @media only screen and (max-width: 600px) {
-.plus_populaires {
+  .plus_populaires {
     grid-gap: 30px;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -730,7 +831,7 @@ display: grid;
     margin-left: -10px;
     border-radius: 0;
   }
- footer {
+  footer {
     background-color: #f2f2f2;
     width: 104%;
     margin-top: 70px;
@@ -778,63 +879,64 @@ display: grid;
 @media only screen and (max-width:600px) {
 
   body {
-
-    
-          
-            
-    
-
-          
-    
-    
-  
     padding: 0px;
   }
+
   .menu_gauche {
     padding: 1rem;
   }
+
   .menu_droite {
     display: none;
   }
+
   .menu_portable {
     display: block;
-   margin-left: -8px;
-   margin-right: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
   }
+
   .menu_portable ul {
     padding: 0;
   }
+
   .menu_portable ul li {
     border-bottom: 3px solid #f2f2f2;
     padding-bottom: 15px;
   }
+
   .menu_portable ul li a {
     text-decoration: none;
     color: black;
-}
-    
-   main {
+  }
+
+  main {
     padding: 2rem 1rem 0rem 1rem;
   }
+
   .menu_portable ul li a:hover {
     text-decoration: none;
     color: #0065fc;
   }
+
   .menu_portable ul li:hover {
     color: #0065fc;
     border-bottom: 3px solid #0065fc;
     padding-bottom: 15px;
   }
+
   .menu_droite_portable_inscrire {
     display: block;
     padding: 1rem;
   }
+
   .menu_droite_portable_inscrire ul {
     color: #0065fc;
     font-weight: bold;
     float: right;
     list-style: none;
   }
+
   .menu_portable ul {
     width: 100%;
     display: flex;
@@ -881,9 +983,9 @@ main h1 {
   display: flex;
 }
 .info ul {
-    display: flex;
-    flex-direction: row;
-  }
+  display: flex;
+  flex-direction: row;
+}
 .info ul li p {
   margin-top: 5px;
 }
