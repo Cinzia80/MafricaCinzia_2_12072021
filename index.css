@@ -1065,24 +1065,27 @@ h4 {
 .block_pop img {
   border-radius: 20px 0px 0px 20px;
   object-fit: cover;
-  height: 150px;
-  width: 120px;
+  height: 145px;
 }
+
 .block_pop ul li {
   list-style: none;
   font-size: 16px;
   padding-bottom: 30px;
 }
+
 .block_pop {
   width: fit-content;
   height: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
+
 span {
   font-weight: 700;
   font-size: 17px;
 }
+
 .plus_populaires {
  grid-gap: 10px;
  grid-column-start: 1;
@@ -1096,9 +1099,11 @@ span {
  margin-top: 10px;
  border-radius: 0;
 }
+
 .titre_pop {
   margin-left: 30px;
 }
+
 .block_pop {
   height: 150px;
   margin-left: 25px;
@@ -1106,19 +1111,24 @@ span {
   flex-direction: row;
   width: 350px;
 }
+
 .text_pop {
   height: 170px;
   padding-right:10px;
+  margin-left: 0px;
 }
+
 .text_pop ul li {
   font-size: 15px;   
 }
+
 .star ul {
   margin-top: -3px;
   list-style: none;
   display: flex;
   flex-direction: row;
 }
+
 .searchButton {
   visibility: hidden;
   display: none;
