@@ -1183,71 +1183,84 @@ section {
 }
 .act_1 {
   height: 180px;
-  min-width: 0;
+  width: 300px;
   box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
   border-radius: 20px 20px 20px 20px;
 }
 .act_1 img {
   height: 140px;
-  min-width: 0;
+  width: 300px;
 }
-.activites_marseille_2 {
-  display: flex;
-  flex-direction: column;
-}
+
+
+
 .act_2 {
   box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
   height: 180px;
-  min-width: 0;
+  width: 300px;
   border-radius: 20px 20px 20px 20px;
   margin-left: 0px;
 }
+
 .act_2 img {
   height: 140px;
-  min-width: 0;
+  width: 300px;
 }
+
 .act_3 {
   box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
   height: 180px;
   border-radius: 20px 20px 20px 20px;
   margin-left: 0px; 
+  width: 300px;
 }
+
 .act_3 img {
   height: 140px;
+  width: 300px;
 }
+
+.activites_marseille_2 {
+  display: flex;
+  flex-direction: column;
+}
+
 .act_4 {
  box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
  height: 180px;
  border-radius: 20px 20px 20px 20px;
- margin-left: -20px;
+ margin-left: 0px;
  margin-top: -10px;
- width: 330px;
+ width: 300px;
 }
+
 .act_4 img {
   height: 140px;
-  width: 330px;
+  width: 300px;
 }
+
 .act_5 {
  box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
  height: 180px;
  border-radius: 20px 20px 20px 20px;
- margin-left: -20px;
- width: 330px;
+ margin-left: 0px;
+ width: 300px;
 }
 .act_5 img {
   height: 140px;
-  width: 330px;
+  width: 300px;
 }
+
 .act_6 {
  box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
  height: 180px;
  border-radius: 20px 20px 20px 20px;
- margin-left: -20px;
+ margin-left: 0px;
  margin-top:-2px;
- width: 330px;
+ width: 300px;
 }
 .act_6 img {
   height: 140px;
-  width: 330px;
+  width: 300px;
 }
 }
