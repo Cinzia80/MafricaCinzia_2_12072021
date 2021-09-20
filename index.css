@@ -852,49 +852,7 @@ footer h2 {
     margin-left: -10px;
     border-radius: 0;
   }
-  footer {
-    background-color: #f2f2f2;
-    width: 104%;
-    margin-top: 70px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0;
-    margin-left: -8px;
-    padding: 0;
-  }
-  footer ul {
-    list-style: none;
-    margin-left: -40px;
-    margin-bottom: 30px;
-    width: 90%;
-  }
-  footer li {
-    margin-top: 10px;
-  }
-  footer h2 {
-    font-size: 15px;
-  }
-  .a_propos {
-    margin-left: 0px;
-    font-size: 15px;
-    padding-left: 20px;
-    width: 80%;
-  }
-  .nos_hebergements {
-    margin-left: 0px;
-    font-size: 15px;
-    padding-left: 20px;
-    width: 80%;
-  }
-  .assistance {
-    margin-left: 0px;
-    font-size: 15px;
-    padding-left: 20px;
-    
-  }
-}
-
+ 
 /**********************************Breackpoint iPhone8***************************/
 
 @media only screen and (max-width:600px) {
@@ -1165,6 +1123,7 @@ span {
   visibility: hidden;
   display: none;
 }
+
 .loupe {
   display: inline;
   width: 30px;
@@ -1178,21 +1137,26 @@ span {
   padding: 12px;
   height: 20px;
 }
+
 .Filtres {
   display: block;
   margin-top: 20px;
 }
+
 .info ul {
   display: flex;
   flex-direction: row;
 }
+
 .info ul li {
   margin-top: 5px;
   margin-left: 5px;
 }
+
 section {
   padding: 0;
 }
+
 .activites_tout {
   display: flex;
   flex-direction: column;
@@ -1200,25 +1164,27 @@ section {
   margin-right: auto;
   padding: 2rem 1rem 0rem 1rem;
 }
+
 #titre_activites {
   margin-top: -10px;
 }
+
 .activites_marseille {
   display: flex;
   flex-direction: column;
 }
+
 .act_1 {
   height: 180px;
   width: 300px;
   box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
   border-radius: 20px 20px 20px 20px;
 }
+
 .act_1 img {
   height: 140px;
   width: 300px;
 }
-
-
 
 .act_2 {
   box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
@@ -1272,6 +1238,7 @@ section {
  margin-left: 0px;
  width: 300px;
 }
+
 .act_5 img {
   height: 140px;
   width: 300px;
@@ -1285,8 +1252,58 @@ section {
  margin-top:-2px;
  width: 300px;
 }
+
 .act_6 img {
   height: 140px;
   width: 300px;
 }
+
+ footer {
+    background-color: #f2f2f2;
+    width: 104%;
+    margin-top: 70px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    margin-left: -8px;
+    padding: 0;
+  }
+
+  footer ul {
+    list-style: none;
+    margin-left: -40px;
+    margin-bottom: 30px;
+    width: 90%;
+  }
+
+  footer li {
+    margin-top: 10px;
+  }
+
+  footer h2 {
+    font-size: 15px;
+  }
+
+  .a_propos {
+    margin-left: 0px;
+    font-size: 15px;
+    padding-left: 20px;
+    width: 80%;
+  }
+
+  .nos_hebergements {
+    margin-left: 0px;
+    font-size: 15px;
+    padding-left: 20px;
+    width: 80%;
+  }
+
+  .assistance {
+    margin-left: 0px;
+    font-size: 15px;
+    padding-left: 20px;
+    
+  }
 }
+
