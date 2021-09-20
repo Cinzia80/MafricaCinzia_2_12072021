@@ -241,8 +241,18 @@ i.fas.fa-star {
   font-size: smaller;
 }
 
-#grey_star {
+.grey_star {
   color: #d1d1d1;
+}
+
+.text_heb ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.blue_star {
+  color: #0065fc;
+  font-size: smaller;
 }
 
 .hebergements_block {
