@@ -571,11 +571,10 @@ footer h2 {
   font-size: 15px;
 }
 
-/************************/
 
 /**********************************Breackpoint I-Pad****************************/
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1280px) {
 
   .menu_droite_portable_inscrire {
     display: none;
@@ -681,9 +680,10 @@ display: grid;
 }
 }
 
-/*********************florian**************************/
+/****************Breakpoint 1280px**********************/
 
 @media only screen and (max-width: 1280px) {
+
   .menu_droite_portable_inscrire {
     display: none;
   }
@@ -894,6 +894,7 @@ display: grid;
 }
 
 /**********************************Breackpoint iPhone8***************************/
+
 @media only screen and (max-width:600px) {
 
   body {
