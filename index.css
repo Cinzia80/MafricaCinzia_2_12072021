@@ -623,20 +623,43 @@ footer h2 {
   }
 }
 @media only screen and (min-width:768px) and (max-width: 1280px) {
+
   .menu_droite_portable_inscrire {
     display: none;
   }
+
   .menu_portable {
     display: none;
   }
+
   .loupe {
     display: none;
   }
+
+  .Filtres h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+.searchButton1 {
+    display: inline-block;
+    border: 2px solid #f2f2f2;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-left: 0px;
+    margin-right: 15px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+
   .hebergements_block {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 30px;
   }
+
   .plus_populaires {
     display: grid;
     grid-gap: 50px;
@@ -652,26 +675,17 @@ footer h2 {
     margin-right: auto;
     margin-left: auto;
   }
+
   .activites_tout {
     display: flex;
     flex-direction: column;
-  }
-  .searchButton1 {
-    display: inline-block;
-    border: 2px solid #f2f2f2;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    margin-left: 25px;
-    border-radius: 30px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 10px;
   }
 }
 
 /****************Breakpoint 1280px**********************/
 
 @media only screen and (max-width: 1280px) {
+
 
   .menu_droite_portable_inscrire {
     display: none;
@@ -685,9 +699,10 @@ footer h2 {
     display: none;
   }
 
-  .filtres_portable {
-    display: none;
+  .Filtres {
+    display: block;
   }
+
 
   .plus_populaires {
     display: grid;
@@ -712,6 +727,13 @@ footer h2 {
   }
 
   .wrap_block {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    width: fit-content;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -722,7 +744,7 @@ footer h2 {
     grid-template-rows: 100px 250px 150px;
     margin-top: 30px;
     width: fit-content;
-    grid-gap: 30px;
+    grid-gap: 40px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -733,7 +755,7 @@ footer h2 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 200px 200px;
-    grid-gap: 30px;
+    grid-gap: 40px;
     margin-top: 30px;
     width: fit-content;
   }
@@ -1013,6 +1035,7 @@ main h1 {
 section {
   padding:  0px;
 }
+
 .wrap_block {
   display: flex;
   flex-direction: column;
@@ -1026,19 +1049,23 @@ section {
   border-radius: 0;
   grid-gap: 10px;
 } 
+
 .searchButton1 {
   margin-left: 0;
-  margin-right: -2px;
+  margin-right: 20px;
 }
+
 #heb_marseille {
   grid-column: 1 / span 3;
   grid-row: 1;
   margin-top: 30px;
 } 
+
 h3 {
   font-size: 22px;
   margin-left: 10px;
 }
+
 h4 {
   font-size: 18px;
   padding-left: 10px;
