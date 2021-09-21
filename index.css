@@ -237,7 +237,7 @@ i.fas.fa-star {
   font-size: smaller;
 }
 
-#grey_star  {
+.grey_star i.fas.fa-star {
   color: #d1d1d1;
 }
 
