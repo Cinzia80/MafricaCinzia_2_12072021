@@ -26,8 +26,7 @@ a:visited {
 }
 
 .menu_droite ul li a {
-  text-decoration: none
-  color: black;
+  text-decoration: none;
 }
 
 .menu_droite li {
@@ -62,16 +61,12 @@ a:visited {
   list-style: none;
 }
 
-.inscription {
-  color: #0065fc;
-}
-
 header {
   height: 50px;
 }
 
 main h1 {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .reve {
@@ -84,6 +79,10 @@ main p {
   margin-top: 10px;
   font-size: 15px;
   color: rgb(0, 0, 0);
+}
+
+h3 {
+  font-size: 22px;
 }
 
 h5 {
@@ -149,7 +148,7 @@ h5 {
 
 .searchButton1  {
   display: inline-block;
-  border: 2px solid #f2f2f2;
+  border: 2px solid lightgray;
   cursor: pointer;
   color: rgb(0, 0, 0);
   margin-left: 20px;
@@ -346,9 +345,9 @@ strong {
 }
 
 .text_pop {
-    width: 200px;
-    margin-left: 20px;
-    height: 100px;
+  width: 200px;
+  margin-left: 20px;
+  height: 100px;
 }
 
 .block_pop a {
@@ -543,6 +542,7 @@ footer {
   width: 100%;
   margin-top: 70px;
   padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 footer ul {
@@ -648,7 +648,7 @@ footer h2 {
     margin-bottom: 20px;
   }
 
-.searchButton1 {
+  .searchButton1 {
     display: inline-block;
     border: 2px solid #f2f2f2;
     cursor: pointer;
@@ -844,9 +844,15 @@ footer h2 {
     padding-left: 20px;
     margin-bottom: 5px;
   }
+
+  .nos_hebergements {
+    font-size: 15px;
+    width: 33%;
+    padding-left: 40px;
+  }
 }
 
- 
+
 /**********************************Breackpoint iPhone8 600px***************************/
 
 @media only screen and (max-width:600px) {
@@ -932,7 +938,7 @@ footer h2 {
 }
 
 main h1 {
-  margin-top: 50px;
+  margin-top: -10px;
 }
 
 .loupe {
@@ -963,6 +969,9 @@ main h1 {
 .Filtres {
   display: flex;
 }
+.Filtres h1 {
+  font-size: 17px;
+}
 
 .info ul {
   display: flex;
@@ -979,7 +988,7 @@ main h1 {
 }
 
 .reve {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-left: -2px;
 }
 
@@ -1124,7 +1133,7 @@ span {
 
 .block_pop {
   height: 150px;
-  margin-left: 25px;
+  margin-left: 23px;
   display: flex;
   flex-direction: row;
   width: 350px;
@@ -1288,53 +1297,53 @@ section {
   width: 320px;
 }
 
- footer {
-    background-color: #f2f2f2;
-    width: 104%;
-    margin-top: 70px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0;
-    margin-left: -8px;
-    padding: 0;
-  }
+footer {
+  background-color: #f2f2f2;
+  width: 104%;
+  margin-top: 70px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+  margin-left: -8px;
+  padding: 0;
+}
 
-  footer ul {
-    list-style: none;
-    margin-left: -40px;
-    margin-bottom: 30px;
-    width: 90%;
-  }
+footer ul {
+  list-style: none;
+  margin-left: -40px;
+  margin-bottom: 30px;
+  width: 90%;
+}
 
-  footer li {
-    margin-top: 10px;
-  }
+footer li {
+  margin-top: 10px;
+}
 
-  footer h2 {
-    font-size: 15px;
-  }
+footer h2 {
+  font-size: 15px;
+}
 
-  .a_propos {
-    margin-left: 0px;
-    font-size: 15px;
-    padding-left: 20px;
-    width: 80%;
-    margin-top: 20px;
-  }
+.a_propos {
+  margin-left: 0px;
+  font-size: 15px;
+  padding-left: 20px;
+  width: 80%;
+  margin-top: 20px;
+}
 
-  .nos_hebergements {
-    margin-left: 0px;
-    font-size: 15px;
-    padding-left: 20px;
-    width: 80%;
-  }
+.nos_hebergements {
+  margin-left: 0px;
+  font-size: 15px;
+  padding-left: 20px;
+  width: 80%;
+}
 
-  .assistance {
-    margin-left: 0px;
-    font-size: 15px;
-    padding-left: 20px;
-    
-  }
+.assistance {
+  margin-left: 0px;
+  font-size: 15px;
+  padding-left: 20px;
+
+}
 }
 
