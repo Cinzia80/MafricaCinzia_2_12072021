@@ -612,7 +612,9 @@ footer h2 {
     margin-top: 30px;
     grid-gap: 20px;
     width: 100%;
+    margin-right: 60px;
   }
+  
   .activites_marseille_2 {
     display: grid;
     grid-template-rows: 100px 200px 200px;
