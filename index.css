@@ -351,12 +351,16 @@ strong {
     height: 100px;
 }
 
+.block_pop a {
+  display: flex;
+}
+
 .block_pop {
   display: flex;
   flex-direction: row;
   background-color: white;
   border-radius: 20px;
-  padding: 5px 5px 0px 5px;
+  padding: 5px 5px 5px 5px;
   height: fit-content;
   box-shadow: 1px 1px 5px rgb(0 0 0 / 21%);
   margin-top: -25px;
@@ -1079,7 +1083,7 @@ h4 {
 .block_pop img {
   border-radius: 20px 0px 0px 20px;
   object-fit: cover;
-  height: 145px;
+  height: 150px;
 }
 
 .block_pop ul li {
