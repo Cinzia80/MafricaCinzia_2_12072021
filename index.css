@@ -650,6 +650,10 @@ footer h2 {
     margin-bottom: 20px;
   }
 
+  .info {
+    margin-left: 70px;
+  }
+
   .searchButton1 {
     display: inline-block;
     border: 2px solid #f2f2f2;
@@ -688,6 +692,10 @@ footer h2 {
   .activites_tout {
     display: flex;
     flex-direction: column;
+  }
+
+  .act_5 {
+    margin-top:-10px;
   }
 }
 
@@ -1345,7 +1353,5 @@ footer h2 {
   margin-left: 0px;
   font-size: 15px;
   padding-left: 20px;
-
 }
 }
-
