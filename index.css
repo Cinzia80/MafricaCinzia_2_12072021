@@ -346,7 +346,6 @@ strong {
 
 .text_pop {
   width: 200px;
-  margin-left: 20px;
   height: 100px;
 }
 
@@ -867,84 +866,48 @@ footer h2 {
 
 @media only screen and (max-width:600px) {
 
-  body {
-    padding: 0px;
-  }
-
-  .menu_gauche {
-    padding: 1rem;
-  }
-
-  .menu_droite {
-    display: none;
-  }
-
-  .menu_portable {
-    display: block;
-    margin-left: -8px;
-    margin-right: -8px;
-  }
-
-  .menu_portable ul {
-    padding: 0;
-  }
-
-  .menu_portable ul li {
-    border-bottom: 3px solid #f2f2f2;
-    padding-bottom: 15px;
-  }
-
-  .menu_portable ul li a {
+ .menu_droite {
+    display: flex;
+    flex-direction: row;
+    float: right;
     text-decoration: none;
+    margin-left: -30px;
+}
+
+.menu_droite ul li a:hover {
+  border-top: none;
+}
+
+.menu_hebergements a:hover {
+  color: #0065FC;
+  border-bottom: 2px solid #0065fc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu_activites a:hover {
+  color: #0065FC;
+  border-bottom: 2px solid #0065fc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu_activites a {
     color: black;
-  }
+    margin-left: 30px;
+}
 
-  main {
-    padding: 2rem 1rem 0rem 1rem;
-  }
-
-  .menu_portable ul li a:hover {
-    text-decoration: none;
-    color: #0065fc;
-  }
-
-  .menu_portable ul li:hover {
-    color: #0065fc;
-    border-bottom: 3px solid #0065fc;
-    padding-bottom: 15px;
-  }
-
-  .menu_droite_portable_inscrire {
-    display: block;
-    padding: 1rem;
-  }
-
-  .menu_droite_portable_inscrire ul {
+.menu_hebergements a {
+    color: black;
+    margin-left: -40px;
+}
+  
+.inscription {
     color: #0065fc;
     font-weight: bold;
     float: right;
-    list-style: none;
-  }
-
-  .menu_portable ul {
-    width: 100%;
-    display: flex;
-    list-style: none;
-    margin-top: 20px;
-  }
-
-  .menu_hebergement_portable {
-    width: 50%;
-    text-align: center;
-  }
-
-  .menu_hebergement_portable li a:hover {
-   color: #0065fc;
- }
-
- .menu_activites_portable {
-  width: 50%;
-  text-align: center;
+    margin-top: -70px;
+    margin-right: 20px;
 }
 
 main h1 {
@@ -1015,7 +978,7 @@ main h1 {
 .hebergements_block {
  grid-template-columns: auto;
  grid-template-rows: auto auto;
- margin-left: -9px;
+ margin-left: -25px;
 }
 
 section {
@@ -1207,9 +1170,7 @@ section {
 .activites_tout {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
   margin-right: auto;
-  padding: 2rem 1rem 0rem 1rem;
 }
 
 #titre_activites {
