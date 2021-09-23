@@ -878,6 +878,12 @@ footer h2 {
   border-top: none;
 }
 
+.menu_droite ul li a:hover {
+  color: #0065FC;
+  border-bottom: 2px solid #0065fc;
+  padding-bottom: 10px;
+}
+
 .menu_hebergements a:hover {
   color: #0065FC;
   border-bottom: 2px solid #0065fc;
@@ -888,8 +894,6 @@ footer h2 {
 .menu_activites a:hover {
   color: #0065FC;
   border-bottom: 2px solid #0065fc;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .menu_activites a {
