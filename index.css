@@ -865,8 +865,11 @@ footer h2 {
 /**********************************Breackpoint iPhone8 600px***************************/
 
 @media only screen and (max-width:600px) {
+.body {
+  padding: 1rem 0rem 1rem 1.5rem;
+}
 
- .menu_droite {
+.menu_droite {
     display: flex;
     flex-direction: row;
     float: right;
@@ -874,36 +877,38 @@ footer h2 {
     margin-left: -30px;
 }
 
-.menu_droite ul li a:hover {
-  border-top: none;
-}
+.menu_droite ul {
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+  }
 
 .menu_droite ul li a:hover {
   color: #0065FC;
   border-bottom: 2px solid #0065fc;
   padding-bottom: 10px;
-}
-
-.menu_hebergements a:hover {
-  color: #0065FC;
-  border-bottom: 2px solid #0065fc;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.menu_activites a:hover {
-  color: #0065FC;
-  border-bottom: 2px solid #0065fc;
-}
-
-.menu_activites a {
-    color: black;
-    margin-left: 30px;
+  border-top: none;
 }
 
 .menu_hebergements a {
     color: black;
-    margin-left: -40px;
+    margin-left: -70px;
+    padding-left:60%;
+    padding-right:80%;
+}
+
+
+
+.menu_activites a {
+    color: black;
+   padding-left: 70%;
+    padding-right: 60%;
+    margin-left: 15px;
+ }
+
+.menu_activites a:hover {
+  color: #0065FC;
+  border-bottom: 2px solid #0065fc;
+  
 }
   
 .inscription {
